@@ -111,9 +111,9 @@ def main():
     # Test data: Multiple taxpayer incomes (in LKR)
     incomes = [2500000, 4000000, 5000000, 1500000, 3500000]
 
-    print("=" * 60)
+    print("+-" * 30)
     print("SRI LANKAN TAX CALCULATOR (April 2025 Tax Reforms)")
-    print("=" * 60)
+    print("+-" * 30)
 
     # Calculate taxes for all incomes 
     taxes = list(map(calculate_income_tax, incomes))
