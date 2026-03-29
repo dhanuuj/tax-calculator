@@ -85,3 +85,5 @@ def print_high_earners(high_earner_incomes):
     for income in high_earner_incomes:
         tax = calculate_income_tax(income)
         print(f"Income: Rs. {income:,.2f} - Tax: Rs. {tax:,.2f}")
+
+# dhanuja_senarathna
